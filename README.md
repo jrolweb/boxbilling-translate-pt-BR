@@ -1,7 +1,7 @@
 # Tradução BoxBilling Português(Brasil) pt_BR
-Tradução do sistema BoxBilling para o idioma Português (Brasil) pt_BR.
+<p>Tradução do sistema BoxBilling para o idioma Português (Brasil) pt_BR.</p>
 
-<h2>Instalação<h2>
+<h2>Instalação</h2>
 <p>Copie a pasta <b>'pt_BR'</b> para dentro do diretório <b>'/bb-locale/'</b>.</p>
 
 <h2>Compatibilidade</h2>
