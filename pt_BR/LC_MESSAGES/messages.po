@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BoxBilling\n"
 "POT-Creation-Date: 2021-03-01 08:07+0300\n"
-"PO-Revision-Date: 2021-04-17 21:45-0300\n"
+"PO-Revision-Date: 2021-04-18 16:33-0300\n"
 "Last-Translator: Júnior Oliveira <junior.mariano@outlook.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -916,13 +916,13 @@ msgid "Currency can not be changed. Client already have orders."
 msgstr "Moeda não pode ser alterada. Cliente já tem pedidos."
 
 msgid "Define clients currency before adding funds."
-msgstr "Definir moeda dos clientes antes de adicionar fundos."
+msgstr "Defina uma moeda antes de adicionar créditos."
 
 msgid "Funds amount is not valid"
-msgstr "Valor dos fundos não é válido"
+msgstr "Valor de crédito não é válido"
 
 msgid "Funds description is not valid"
-msgstr "Descrição fundos não é válido"
+msgstr "Descrição dos créditos invalida"
 
 msgid "Client ID or email is required"
 msgstr "ID do cliente ou e-mail é necessário"
@@ -1276,7 +1276,7 @@ msgid "Invoices are not generated for 0 amount orders"
 msgstr "Faturas não podem ser geradas para pedidos de ZERO reais"
 
 msgid "You must have at least one active order before you can add funds so you cannot proceed at the current time!"
-msgstr "Você deve ter pelo menos um pedido ativo antes de adicionar fundos, portanto, você não pode continuar no momento!"
+msgstr "Você precisa ter pelo menos um serviço ativo para adicionar créditos."
 
 msgid "Amount is not valid"
 msgstr "Quantidade inválida"
@@ -1294,7 +1294,7 @@ msgid "Error converting image to .png"
 msgstr "Erro ao converter a imagem para .png"
 
 msgid "Invoice number: "
-msgstr "Número da fatura: "
+msgstr "Fatura: "
 
 msgid "Invoice date: "
 msgstr "Data da fatura: "
@@ -1354,7 +1354,7 @@ msgid "Invoice item title is missing"
 msgstr "Título da fatura está faltando"
 
 msgid "Add funds to account"
-msgstr "Adicionar fundos à conta"
+msgstr "Adicionar créditos à sua conta"
 
 msgid "Payment gateway is not available for installation."
 msgstr "Gateway de pagamento não está disponível para instalação."
@@ -2575,7 +2575,7 @@ msgid "Invoice Id"
 msgstr "Id fatura"
 
 msgid "Amount"
-msgstr "Montante"
+msgstr "Valor"
 
 msgid "Payment gateway"
 msgstr "Gateway de pagamento"
@@ -3322,7 +3322,7 @@ msgid "Paid"
 msgstr "Pago"
 
 msgid "Unpaid"
-msgstr "Não pago"
+msgstr "Aguardando pagamento"
 
 msgid "Orders"
 msgstr "Pedidos"
@@ -4039,10 +4039,10 @@ msgid "Total:"
 msgstr "Total:"
 
 msgid "Pay by"
-msgstr "Pagar via"
+msgstr "Pagar por"
 
 msgid "Total amount will be deducted from account balance"
-msgstr "Montante total será deduzido do saldo da conta"
+msgstr "O valor total será retirado do saldo da conta"
 
 msgid "Checkout"
 msgstr "Checkout"
@@ -4207,10 +4207,10 @@ msgid "Payments history"
 msgstr "Histórico de pagamentos"
 
 msgid "Here you can track what you have been charged for and add more funds to your account"
-msgstr "Aqui você pode controlar o que você gastou e adicionar mais fundos em sua conta"
+msgstr "Aqui você pode controlar o que você gastou e adicionar mais créditos em sua conta"
 
 msgid "Add funds!"
-msgstr "Adicione fundos!"
+msgstr "Adicionar créditos!"
 
 msgid "Manage coupon code"
 msgstr "Gerenciar o código do cupom"
@@ -4276,7 +4276,7 @@ msgid "Your payment is being processed right now. It can take up 5 minutes to co
 msgstr "Seu pagamento está sendo processado no momento. Pode levar alguns minutos para ser concluído."
 
 msgid "Payment for invoice received"
-msgstr "Pagamento da fatura recebida"
+msgstr "Fatura paga"
 
 msgid "You will be automatically redirected to invoice page after 5 minutes."
 msgstr "Você será automaticamente redirecionado para a página da fatura após 5 minutos."
@@ -4627,16 +4627,16 @@ msgid "All of your invoices can be found here. You can choose to see either paid
 msgstr "Todas os seus pedidos podem ser encontrados aqui. Você pode escolher visualizar tanto faturas pagas como pedidos a pagar clicando o botão correspondente."
 
 msgid "Issue Date"
-msgstr "Data de Emissão"
+msgstr "Emissão"
 
 msgid "Due Date"
-msgstr "Data de Vencimento"
+msgstr "Venc."
 
 msgid "Pay"
 msgstr "Pagar"
 
 msgid "Paid at"
-msgstr "Pago no"
+msgstr "Pago em"
 
 msgid "Download "
 msgstr "Baixar "
@@ -4990,7 +4990,7 @@ msgid "Number of days to generate new invoice before order expiration"
 msgstr "Número de dias para gerar nova fatura, antes do vencimento do pedido"
 
 msgid "Invoice due days"
-msgstr "Fatura dias devido"
+msgstr "Dias em atraso"
 
 msgid "Auto invoice approval"
 msgstr "Aprovação de fatura automática"
@@ -5011,22 +5011,22 @@ msgid "Next paid invoice number"
 msgstr "Próximo número de fatura paga"
 
 msgid "Refunds settings"
-msgstr "Configurações de reembolsos"
+msgstr "Configurações de reembolso"
 
 msgid "Refunds logic"
-msgstr "Lógia de reembolso"
+msgstr "Política de reembolso"
 
 msgid "Add funds settings"
-msgstr "Configurações de adição de fundos"
+msgstr "Configurações de créditos"
 
 msgid "Minimum amount for add funds invoice"
-msgstr "Valor mínimo de para adição de fundos"
+msgstr "Valor mínimo de para adição de créditos"
 
 msgid "Unlimited"
 msgstr "Sem limite"
 
 msgid "Maximum amount for add funds invoice"
-msgstr "Valor máximo para adição de fundos"
+msgstr "Valor máximo para adição de créditos"
 
 msgid "SolusVM"
 msgstr "SolusVM"
@@ -5434,13 +5434,13 @@ msgid "Client payments history"
 msgstr "Histórico de pagamento do cliente"
 
 msgid "Add funds for client"
-msgstr "Adicionar fundos para o cliente"
+msgstr "Adicionar créditos para o cliente"
 
 msgid "Funds added"
-msgstr "Fundos adicionados"
+msgstr "Créditos adicionados"
 
 msgid "Add funds"
-msgstr "Adicionar fundos"
+msgstr "Adicionar créditos"
 
 msgid "Client orders"
 msgstr "Pedidos do Cliente"
@@ -5605,7 +5605,7 @@ msgid "Orders settings"
 msgstr "Configurações de pedidos"
 
 msgid "Expiration date"
-msgstr "Data de vencimento"
+msgstr "Data de expiração"
 
 msgid "Show addon orders in orders list (if this is disabled they are shown in master order view \"Addons\" tab)"
 msgstr "Mostrar pedidos de addons na lista de pedidos (se isso for desabilitado, esses pedidos aparecem na ordenação mestra da tab \"Addons\")"
@@ -5644,7 +5644,7 @@ msgid "Invoice date"
 msgstr "Data fatura"
 
 msgid "Due date"
-msgstr "Data de Vencimento"
+msgstr "Data de vencimento"
 
 msgid "Invoice status"
 msgstr "Status do pedido"
@@ -5824,13 +5824,13 @@ msgid "Proforma invoice"
 msgstr "Fatura Proforma"
 
 msgid "Payment methods"
-msgstr "Opções de pagamento"
+msgstr "Forma de pagamento"
 
 msgid "Please choose payment type and pay for your chosen products."
 msgstr "Por favor, escolha o tipo de pagamento e pague pelos produtos escolhidos."
 
 msgid "Pay with"
-msgstr "Pagar via"
+msgstr "Pagar com"
 
 msgid "You can print this invoice or export it to PDF file by clicking on corresponding button."
 msgstr "Você pode imprimir esta fatura ou exportá-la em PDF clicando no botão correspondente."
